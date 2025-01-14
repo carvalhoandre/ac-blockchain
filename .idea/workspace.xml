@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35cdc7c8-e0f4-4ee9-9153-6b581aaa63e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/blockchain/blockchain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blockchain/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
