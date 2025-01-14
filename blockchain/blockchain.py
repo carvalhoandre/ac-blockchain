@@ -1,14 +1,12 @@
+from .block import Block
 import time
-
-from block import Block
 
 class Blockchain:
     def __init__(self):
         self.chain = [self.create_genesis_block()]
         self.difficulty = 4
 
-    @staticmethod
-    def create_genesis_block():
+    def create_genesis_block(self):
         return Block(0, "0", time.time(), "Genesis Block")
 
     def get_latest_block(self):
@@ -23,7 +21,6 @@ class Blockchain:
         while not block.hash.startswith("0" * self.difficulty):
             block.nonce += 1
             block.hash = block.calculate_hash()
-
         return block.hash
 
     def is_chain_valid(self):
