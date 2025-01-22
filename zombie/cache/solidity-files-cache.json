@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\Users\\andre\\Documentos\\GitHub\\ac-blockchain\\zombie\\contracts\\ZombieFactory.sol": {
+      "lastModificationDate": 1737567960153,
+      "contentHash": "363a5840ebd272fe9b2f5d1636994a01",
+      "sourceName": "contracts/ZombieFactory.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ZombieFactory"
+      ]
+    }
+  }
+}
